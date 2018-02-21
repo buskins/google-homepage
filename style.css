@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  opacity: .90;
+  height: 100%;
+}
+/* Create Container for body - padding-bottom leaves room for the footer height */
+.container {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 60px;
+}
+/* Navigation Bar Styling */
+.nav-container {
+  text-align: right;
+  padding: 0px 14px 0px 0px;
+}
+.nav-list li {
+  list-style-type: none;
+  display: inline;
+  padding: 8px 7px;
+}
+.nav-list a, .footer-list a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-list a:hover, .footer-list a:hover {
+  text-decoration: underline;
+  opacity: .85;
+}
+.apps-icon {
+  opacity: .65;
+  vertical-align: middle;
+}
+.sign-in {
+  border: none;
+  padding: 8px 12px;
+  background-color: #4387fd;
+  color: #fff;
+  font-weight: bold;
+}
+/* Logo Styling */
+.main-logo {
+  text-align: center;
+  padding: 150px 0px 20px 0px;
+}
+/* Search Form Styling */
+.search-form {
+  padding: 10px;
+  text-align: center;
+}
+.text-box {
+  width: 30%;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  box-shadow: 3px 3px 5px rgba(126, 122, 122, 0.5);
+  border-radius: 2px;
+  height: 44px;
+  border: 1px solid rgba(126, 122, 122, 0.3);
+}
+.text-box:hover {
+  box-shadow: 3px 3px 10px rgba(126, 122, 122, 0.5);
+}
+.text-box:focus {
+  outline: none;
+}
+.search-form button {
+  border: 1px solid #f1f1f1;
+  margin: 5px;
+  border-radius: 3px;
+  padding: 10px 10px;
+  background-color:#f1f1f1;
+  opacity: .80;
+  width: 150px;
+  font-weight: 600;
+}
+.search-form button:hover {
+  border: 1px solid rgba(126, 122, 122, 0.5);
+  color: #000;
+}
+/* Footer Styling */
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #f1f1f1;
+  opacity: .70;
+}
+.country {
+  border: 1px solid #e1e1e1;
+  height: 40px;
+  padding-left: 20px;
+}
+.left-footer {
+  padding-left: 20px;
+}
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-list li {
+  display: inline;
+  padding-right: 20px;
+  font-size: .90em;
+}
+.right-footer {
+  float: right;
+  padding-right: 20px;
+}
